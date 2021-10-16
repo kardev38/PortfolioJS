@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <title>Personnel Portfolio</title>
     <meta charset="UTF-8">
@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Template css Files -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="./css/skins/pink.css" type="text/css">
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
     <!-- Live Style Switcher - Demo Only -->
-    <!-- <link rel="stylesheet" href="css/skins/pink.css" type="text/css" disabled>
-    <link rel="stylesheet" href="css/skins/blue.css" type="text/css" disabled>
-    <link rel="stylesheet" href="css/skins/orange.css" type="text/css" disabled>
-    <link rel="stylesheet" href="css/skins/yellow.css" type="text/css" disabled>
-    <link rel="stylesheet" href="css/skins/green.css" type="text/css"> -->
+    <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
 
 </head>
 <body>
@@ -650,9 +652,39 @@
             </div>
         </div>
       <!-- Lightbox End-->
+      
+      <!-- Live Style Switcher - Demo Only -->
+        <div class="style-switcher">
+            <div class="toggle-style-switcher">
+              <i class="fa fa-cog fa-spin"></i>  
+            </div>
+            <h5>Style Switcher</h5>
+            <ul>
+                <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+                <li><a href="javascript:void(0);" title="blue" style="background-color: #2196F3;" onclick="setActiveStyle('blue')"></a></li>
+                <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
+                <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
+                <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+            </ul>
+            <h5>Body Skin</h5>
+            <label for="">
+                <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+                Light
+            </label>
+            <label for="">
+                <input type="radio" class="body-skin" name="body-style" value="dark">
+                Dark
+            </label>
+        </div>
+        <!-- Live Style Switcher - Demo Only -->
+
+      
 
     <!-- Template js -->
     <script src="js/script.js"></script>
-    <!-- Template js End-->
+
+     <!-- Live Style js - Demo Only -->
+     <script src="js/styleSwitcher.js"></script>
+    
 </body>
 </html>
