@@ -574,7 +574,7 @@ text-transform: capitalize;
     display: block;
     animation: showItem 0.5s ease;
 }
-@-webkit-keyframes showItem{
+@keyframes showItem{
     0%{
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
@@ -691,7 +691,7 @@ opacity: 0;
 .lightbox.open .lightbox-content{
 animation: lightboxImage .5s ease;
 }
-@-webkit-keyframes lightboxImage{
+@keyframes lightboxImage{
     0%{
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
