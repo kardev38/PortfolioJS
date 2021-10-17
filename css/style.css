@@ -154,6 +154,60 @@ input,textarea,select{
 .hidden{
     display: none !important;
 }
+/* Preloader */
+.preloader{
+    background-color: #222222;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.preloader.opacity-0{
+    opacity: 0;
+}
+.preloader .loader{
+    height: 40px;
+    width: 40px;
+    border: 4px solid #e3e3e3;
+    border-radius: 50%;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
 /* Aside */
 .aside{
     width: 270px;
@@ -162,11 +216,21 @@ input,textarea,select{
     height: 100%;
     left: 0;
     top: 0;
-    z-index:10 ;
+    
+    z-index:11 ;
     border-right:1px solid #e8dfec ;
-    padding: 30px;
+    overflow-y: auto;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+.aside .aside-inner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    overflow-y: auto;
 }
 .aside .logo{
     
@@ -207,7 +271,7 @@ right: 0;
     cursor: pointer;
     position: fixed;
     left: 300px;
-    top: 30px;
+    top: 20px;
     z-index: 11;
     border-radius: 5px;
     background-color: #fdf9ff;
@@ -227,6 +291,9 @@ right: 0;
     display: inline-block;
     position: relative;
 }
+.aside .nav-toggler.open span{
+    background-color: transparent;
+}
 .aside .nav-toggler span::before{
     content: '';
     height: 2px;
@@ -235,6 +302,11 @@ right: 0;
     top: -6px;
     left: 0;
 }
+.aside .nav-toggler.open span::before{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+}
 .aside .nav-toggler span::after{
     content: '';
     height: 2px;
@@ -242,6 +314,11 @@ right: 0;
     position: absolute;
     top: 6px;
     left: 0;
+}
+.aside .nav-toggler.open span::after{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 0px;
 }
 .aside .nav{
     list-style: none;
@@ -540,6 +617,7 @@ margin: 0;
    text-align: center;
    -webkit-transition: all 0.3s ease;
    transition: all 0.3s ease;
+   width: 100%;
 }
 .service .service-item .service-item-inner:hover{
     -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
@@ -828,11 +906,15 @@ transform: scale(1);
       flex:0 0 33.33%;
       max-width: 33.33%;
       margin-bottom: 30px;
+      display: flex;
+      
   }
   .blog .blog-item-inner{
       border-radius: 10px;
       overflow: hidden;
       border: 1px solid #d4d4e3;
+      width: 100%;
+      background-color: #fdf9ff;
   }
   .blog .blog-item-inner .blog-img{
       position: relative;
@@ -860,7 +942,7 @@ transform: scale(1);
   }
   .blog .blog-item-inner .blog-info{
       padding: 30px 15px;
-      background-color: #fdf9ff;
+    
   }
   .blog .blog-item-inner .blog-info .blog-title{
       font-size: 18px;
@@ -1018,13 +1100,16 @@ body.dark .shadow-dark{
 /* Responsive */
 
 @media (max-width: 1199px){
+    .section .container{
+        padding-top: 70px;
+    }
     .aside .nav-toggler{
         display:-ms-flexbox;
         display: flex;
         left: 30px;
     }
     .aside .nav-toggler.open{
-        left: 300px;
+        left: 200px;
     }
     .aside{
         left: -270px;
@@ -1034,6 +1119,9 @@ body.dark .shadow-dark{
     }
     .section{
         left: 0;
+    }
+    .section.open{
+        left: 270px;
     }
     .about .about-content .personal-info .info-item p span{
         display: block;

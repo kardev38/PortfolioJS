@@ -19,32 +19,43 @@
 
 </head>
 <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+
+        </div>
+    </div>
+    <!-- Preloader End-->
+
     <!-- Main Container -->
     <div class="main-container"> 
         <!-- Aside -->
         <div class="aside">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="#">Upvesh</a>
-            </div>
-            <!-- Nav Toggler Btn -->
-            <div class="nav-toggler">
-               <span></span> 
-            </div>
-            <!-- Nav -->
-            <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#blog"><i class="fa fa-envelope"></i>Blog</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-             </ul>
-            <!-- Copyright -->
+            <div class="aside-inner"> 
+                <!-- Nav Toggler Btn -->
+                    <div class="nav-toggler">
+                        <span></span> 
+                    </div>
+                <!-- Nav -->          
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="#">Upvesh</a>
+                </div>
+                <ul class="nav">
+                    <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                    <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#blog"><i class="fa fa-envelope"></i>Blog</a></li>
+                    <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+                </ul>
+                <!-- Copyright -->
 
-            <div class="copyright-text tooltip">
-               &copy; 2021 KarDev <span class="tooltiptext">inspired by the WebShala Template</span> 
-             </div>
+                <div class="copyright-text tooltip">
+                &copy; 2021 KarDev <span class="tooltiptext">inspired by the WebShala Template</span> 
+                </div>
+            </div>
         </div>
         <!-- Aside End -->
         <!-- Main Content -->
@@ -52,7 +63,7 @@
 
 
             <!-- Home Section -->
-            <section class="home section active" id="home">
+            <section class="home section active" id="home"> 
                 <div class="container">
                     <div class="intro">
                             <img src="image/blog/blog6.jpg" alt="profile" class="shadow-dark">
@@ -118,7 +129,7 @@
                                         <div class="row">
                                             <div class="buttons padd-15">
                                                 <a href="#" class="btn">Download CV</a>
-                                                <a href="#" class="btn">Hire Me</a>
+                                                <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
                                             </div>
                                         </div>
                                 </div> 
@@ -308,9 +319,9 @@
                             <div class="service-item-inner">
                                 <div class="icon"><i class="fa fa-laptop"></i></div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur,<br>
+                                <p>Lorem ipsum dolor  sit amet consectetur,<br>
                                 adipisicing elit. Odio animi quibusdam<br>
-                                iure error minus voluptas.</p>
+                                iure error minus voluptas.</p> 
                             </div>
                         </div>
                         <!-- Service Item End-->
@@ -508,8 +519,8 @@
                                 <div class="blog-info">
                                     <h4 class="blog-title">Responsive Web Design</h4>
                                     <p class="blog-description">Lorem ipsum dolor sit amet,<br>
-                                         consectetur adipisicing elit. Fugiat vitae nam<br>
-                                          voluptatibus explicabo rem at.</p>
+                                          consectetur adipisicing elit. Fugiat vitae nam<br>
+                                          voluptatibus explicabo rem at.</p> 
                                     <p class="blog-tags">Tags : <a href="#">Html</a> , <a href="#">css</a></p>
                                 </div>
                             </div>
@@ -556,9 +567,10 @@
                     </div>
                 </div>
             </section>
-             <!-- Blog Section End-->
-             <!-- Contact Section -->
-             <section class="contact section" id="contact">
+            <!-- Blog Section End-->
+
+            <!-- Contact Section -->
+            <section class="contact section" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
