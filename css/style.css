@@ -51,7 +51,7 @@ input,textarea,select{
     -webkit-animation: slideSection 1s ease;
     animation: slideSection 1s ease;
 }
-/* @keyframes slideSection{
+@-webkit-keyframes slideSection{
     0%{
         -webkit-transform: translateX(100%);
         transform: translateX(100%);
@@ -60,7 +60,7 @@ input,textarea,select{
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
-} */
+}
 @keyframes slideSection{
     0%{
         -webkit-transform: translateX(100%);
@@ -1170,7 +1170,7 @@ body.dark .shadow-dark{
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 300px;
+    width: 140px;
     background-color: black;
     color: #fff;
     text-align: center;
