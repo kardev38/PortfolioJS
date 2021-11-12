@@ -1015,7 +1015,7 @@ transform: scale(1);
   }
 
     /* Video-Galery */
-    *{
+    /* *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1071,7 +1071,7 @@ transform: scale(1);
     .video-container .video .active:hover{
       transition: none;
       transform: translate(-50%, -50%) scale(1);
-    }
+    } */
 
   /* Contact Section */
 
