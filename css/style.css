@@ -469,7 +469,6 @@ margin-top: 40px;
     margin-top: 10px;
 }
 .about .about-content .skills{
-/* background-color: blue; */
 -ms-flex:0 0 40% ;
 flex: 0 0 40%;
 max-width: 40%;
@@ -479,12 +478,10 @@ margin-top: 40px;
     -ms-flex:0 0 100% ;
     flex: 0 0 100%;
     max-width: 100%;
-    /* background-color: red; */
 }
 
 
 .about .about-content .skills .skill-item .skill-percent{
-    /* display: none; */
     line-height: 40px;
     position: absolute;
     right: 0;
@@ -591,6 +588,9 @@ body{
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-size: 42px;
 }
 
 #slider label{
