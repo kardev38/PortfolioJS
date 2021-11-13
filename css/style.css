@@ -590,7 +590,7 @@ body{
     transform-style: preserve-3d;
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
-    font-size: 42px;
+    font-size: 25px;
 }
 
 #slider label{
@@ -1092,6 +1092,7 @@ display: inline-block;
 body.dark .section{
     background-color: #151515;
 }
+
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
@@ -1099,7 +1100,7 @@ body.dark .about .about-content .timeline,
 body.dark .aside{
     background-color: #222222;
 }
-
+body.dark .about #slider h1.title,
 body.dark.contact .contact-info-item h4,
 body.dark .blog .blog-item-inner .blog-info .blog-title,
 body.dark .portfolio .portfolio-filter button,
@@ -1115,6 +1116,7 @@ body.dark .aside .logo  a,
 body.dark .aside .nav li a{
     color: #ffffff;
 }
+body.dark .about #slider h1.title,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
 body.dark .blog .blog-item-inner .blog-info .blog-tags,
