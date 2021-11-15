@@ -351,6 +351,7 @@ right: 0;
     font-size: 13px;
     color: #7d7d7d;
 }
+
 /* Home */
 
 .home{
@@ -670,7 +671,6 @@ body{
 .service .service-item .service-item-inner .icon{
 height: 60px;
 width: 60px;
-/* background-color: red; */
 display: block;
 margin: 0 auto 30px;
 text-align: center;
@@ -707,7 +707,6 @@ text-transform: capitalize;
     padding-bottom: 40px;
 }
 .portfolio .portfolio-filter{
-    /* background-color: red; */
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -730,7 +729,6 @@ text-transform: capitalize;
     transition: all 0.3s ease;
 }
 .portfolio .portfolio-item{
-    /* background-color: red; */
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
@@ -774,8 +772,6 @@ text-transform: capitalize;
     width: 100%;
     z-index: 1;
     padding: 30px;
-    /* -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; */
     opacity: 0;
 }
 .portfolio .portfolio-item-inner:hover .portfolio-info{
@@ -831,8 +827,6 @@ opacity: 0;
     background-color:rgba(0,0,0,0.6);
     z-index: 100;
     display: none;
-  /* display:-ms-flexbox;
-  display: flex; */
     -ms-flex-align:center ;
     align-items: center;
     -ms-flex-pack:center ;
@@ -932,14 +926,6 @@ transform: scale(1);
     font-size: 32px;
     line-height: 40px;
 }
-/* 
-    -webkit-transform: scale(1);
-    transform: scale(1); 
-
-      -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
  
   /* Blog Section */
   .blog .container{
