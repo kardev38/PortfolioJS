@@ -8,6 +8,8 @@
     <!-- Template css Files -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+    <!-- template video  -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <!-- Live Style Switcher - Demo Only -->
     <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
     <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
@@ -87,6 +89,7 @@
                             <h2>À Propos</h2>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="about-content padd-15">
                             <div class="row">
@@ -127,34 +130,34 @@
                                         </div>
                                 </div> 
                             </div>
-                            <div class="skill-item">
-    <div id="slider">
-        <h1 class="title">Hobbys</h1>
-      
-            <input type="radio" name="slider" id="s1">
-                <input type="radio" name="slider" id="s2">
-                    <input type="radio" name="slider" id="s3" checked>
-                        <input type="radio" name="slider" id="s4">
-                            <input type="radio" name="slider" id="s5">
+                            
+                                <div class="skill-item">         
+                                    <div id="slider">
+                                        <h1 class="title">Hobbys</h1>
+                                    
+                                            <input type="radio" name="slider" id="s1">
+                                                <input type="radio" name="slider" id="s2">
+                                                    <input type="radio" name="slider" id="s3" checked>
+                                                        <input type="radio" name="slider" id="s4">
+                                                            <input type="radio" name="slider" id="s5">
 
-            <label for="s1" id="slide1">
-                    <img src="./image/slider/slider1.jpg" height="100%" width="100%">
-            </label>
-            <label for="s2" id="slide2">
-                <img src="./image/slider/slider2.jpg" height="100%" width="100%">
-            </label>
-            <label for="s3" id="slide3">
-                <img src="./image/slider/slider3.jpg" height="100%" width="100%">
-            </label>
-            <label for="s4" id="slide4">
-                <img src="./image/slider/slider4.jpg" height="100%" width="100%">
-            </label>
-            <label for="s5" id="slide5">
-                <img src="./image/slider/slider5.jpg" height="100%" width="100%">
-            </label>
-
-    </div>
-</div>
+                                            <label for="s1" id="slide1">
+                                                    <img src="./image/slider/slider1.jpg" height="100%" width="100%">
+                                            </label>
+                                            <label for="s2" id="slide2">
+                                                <img src="./image/slider/slider2.jpg" height="100%" width="100%">
+                                            </label>
+                                            <label for="s3" id="slide3">
+                                                <img src="./image/slider/slider3.jpg" height="100%" width="100%">
+                                            </label>
+                                            <label for="s4" id="slide4">
+                                                <img src="./image/slider/slider4.jpg" height="100%" width="100%">
+                                            </label>
+                                            <label for="s5" id="slide5">
+                                                <img src="./image/slider/slider5.jpg" height="100%" width="100%">
+                                            </label>
+                                    </div>
+                                </div>
                             <div class="row">
                                 <div class="education padd-15">
                                   <h3 class="title">Formation</h3>
@@ -588,11 +591,202 @@
                             </div>
                         </div> 
                         <!-- Blog Item End-->
-
-                        <!-- Gallery video -->
-               
-                        <!-- Gallery video end-->
                     </div>
+                    <!-- Gallery video -->
+                        <div class="sectionVideo">
+                            <div id="video_player">
+                                <h3 class="titleVid">Video 1</h3>
+                                <video src="./video/essai.mp4" id="main-video"></video>
+                                <div class="progressAreaTime">0:00</div>
+                                <div class="controls">
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="controls-list">
+                                        <div class="controls-left">
+                                            <span class="icon">
+                                                <i class="material-icons fast-rewind">replay_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons play_pause">play_arrow</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fast-forward">forward_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons volume">volume_up</i>
+                                                <input type="range" min="0" max="100" class="volume_range">
+                                            </span>
+                                            <div class="timer">
+                                                <span class="current">0:00</span> / <span class="duration">0:00</span>
+                                            </div>
+                                        </div>
+                                        <div class="controls-right">
+                                            <span class="icon">
+                                                <i class="material-icons auto-play"></i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons settingsBtn">settings</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons picture_in_picutre">picture_in_picture_alt</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fullscreen">fullscreen</i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="settings">
+                                    <div class="playback">
+                                        <span>Playback Speed</span>
+                                        <ul>
+                                            <li data-speed="0.25">0.25</li>
+                                            <li data-speed="0.5">0.5</li>
+                                            <li data-speed="0.75">0.75</li>
+                                            <li data-speed="1"  class="active">Normal</li>
+                                            <li data-speed="1.25">1.25</li>
+                                            <li data-speed="1.5">1.5</li>
+                                            <li data-speed="1.75">1.75</li>
+                                            <li data-speed="2">2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Gallery video end-->
+                    <!-- Gallery video -->
+                        <div class="sectionVideo">
+                            <div id="video_player">
+                                <h3 class="titleVid">Video 2</h3>
+                                <video src="./video/essai.mp4" id="main-video"></video>
+                                <div class="progressAreaTime">0:00</div>
+                                <div class="controls">
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="controls-list">
+                                        <div class="controls-left">
+                                            <span class="icon">
+                                                <i class="material-icons fast-rewind">replay_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons play_pause">play_arrow</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fast-forward">forward_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons volume">volume_up</i>
+                                                <input type="range" min="0" max="100" class="volume_range">
+                                            </span>
+                                            <div class="timer">
+                                                <span class="current">0:00</span> / <span class="duration">0:00</span>
+                                            </div>
+                                        </div>
+                                        <div class="controls-right">
+                                            <span class="icon">
+                                                <i class="material-icons auto-play"></i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons settingsBtn">settings</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons picture_in_picutre">picture_in_picture_alt</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fullscreen">fullscreen</i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="settings">
+                                    <div class="playback">
+                                        <span>Playback Speed</span>
+                                        <ul>
+                                            <li data-speed="0.25">0.25</li>
+                                            <li data-speed="0.5">0.5</li>
+                                            <li data-speed="0.75">0.75</li>
+                                            <li data-speed="1"  class="active">Normal</li>
+                                            <li data-speed="1.25">1.25</li>
+                                            <li data-speed="1.5">1.5</li>
+                                            <li data-speed="1.75">1.75</li>
+                                            <li data-speed="2">2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Gallery video end-->
+                    <!-- Gallery video -->
+                        <div class="sectionVideo">
+                            <div id="video_player">
+                                <h3 class="titleVid">Video 3</h3>
+                                <video src="./video/essai.mp4" id="main-video"></video>
+                                <div class="progressAreaTime">0:00</div>
+                                <div class="controls">
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="controls-list">
+                                        <div class="controls-left">
+                                            <span class="icon">
+                                                <i class="material-icons fast-rewind">replay_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons play_pause">play_arrow</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fast-forward">forward_10</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons volume">volume_up</i>
+                                                <input type="range" min="0" max="100" class="volume_range">
+                                            </span>
+                                            <div class="timer">
+                                                <span class="current">0:00</span> / <span class="duration">0:00</span>
+                                            </div>
+                                        </div>
+                                        <div class="controls-right">
+                                            <span class="icon">
+                                                <i class="material-icons auto-play"></i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons settingsBtn">settings</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons picture_in_picutre">picture_in_picture_alt</i>
+                                            </span>
+                                            <span class="icon">
+                                                <i class="material-icons fullscreen">fullscreen</i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="settings">
+                                    <div class="playback">
+                                        <span>Playback Speed</span>
+                                        <ul>
+                                            <li data-speed="0.25">0.25</li>
+                                            <li data-speed="0.5">0.5</li>
+                                            <li data-speed="0.75">0.75</li>
+                                            <li data-speed="1"  class="active">Normal</li>
+                                            <li data-speed="1.25">1.25</li>
+                                            <li data-speed="1.5">1.5</li>
+                                            <li data-speed="1.75">1.75</li>
+                                            <li data-speed="2">2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Gallery video end-->
                 </div>
             </section>
             <!-- Blog Section End -->
@@ -669,9 +863,7 @@
                 </div>
             </section>
 
-
-
-              <!-- Contact Section End-->
+            <!-- Contact Section End-->
         </div>
         <!-- Main Content End -->
     </div>
