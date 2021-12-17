@@ -851,7 +851,7 @@ opacity: 0;
   position: relative;
 }
 .lightbox.open .lightbox-content{
-animation: lightboxImage .5s ease;
+animation: lightboxImage 0.5s ease;
 }
 @keyframes lightboxImage{
     0%{
@@ -1603,6 +1603,3 @@ body.dark .shadow-dark{
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
-
-
-
