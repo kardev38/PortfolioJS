@@ -580,7 +580,8 @@ body{
     padding: 20px;
     background: #eee;
 }
-[type=radio]{
+
+#slider [type=radio]{
     display: none;
 }
 #slider{
