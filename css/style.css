@@ -1461,7 +1461,7 @@ body.dark .section{
 }
 
 body.dark .contact .contact-form .form-item .form-control,
-body.dark .blog .blog-item-inner .blog-info,
+body.dark .blog .blog-item-inner,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside{
@@ -1501,7 +1501,7 @@ body.dark .home .intro p{
 }
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
-body.dark .blog .blog-item-inner,
+body.dark .blog .blog-item-inner .blog-info,
 body.dark .portfolio .portfolio-item-inner,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
