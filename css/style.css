@@ -1516,6 +1516,22 @@ body.dark .shadow-dark{
 
 /* Responsive */
 
+.youvideo{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.youvideo iframe{
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
 @media (max-width: 1199px){
     .section .container{
         padding-top: 70px;
