@@ -931,7 +931,6 @@ transform: scale(1);
       padding-bottom:40px ;
   }
   .container{
-      /* display: flex; */
       flex-wrap: wrap;
   }
   .blog .blog-item{
