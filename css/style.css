@@ -83,7 +83,6 @@ input,textarea,select{
    
 }
 .section-title h2{
-    font-size: 40px;
     font-size:40px ;
     color: #302e4d;
     font-family: 'Rubik', sans-serif;
@@ -702,7 +701,7 @@ text-transform: capitalize;
     margin: 0;
 }
 
-/* Porfolio section */
+/* Skills Section */
 .portfolio .container{
     padding-bottom: 40px;
 }

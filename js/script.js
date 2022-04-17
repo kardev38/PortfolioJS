@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
     },1000)
 })
 
-// Portfolio Item Filter
+// Skills Item Filter
 
 const filterContainer=document.querySelector(".portfolio-filter"),
     filterBtns=filterContainer.children,
@@ -27,7 +27,7 @@ const filterContainer=document.querySelector(".portfolio-filter"),
                 portfolioItems[k].classList.add("show");
             }
             else{
-                portfolioItems[k].classList.remove("hide");
+                portfolioItems[k].classList.remove("show");
                 portfolioItems[k].classList.add("hide");
             }
             if(filterValue === "all"){
