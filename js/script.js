@@ -176,6 +176,6 @@ let itemIndex=0;
                 aside.classList.toggle("open");
                 navTogglerBtn.classList.toggle("open");
                 for(let i=0; i<totalSection; i++){
-                    allSection[i].classList.toggle("open");
+                    allSection[i].classListtoggle("open");
                 }
             }
