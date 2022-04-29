@@ -36,10 +36,10 @@ La partie "Accueil" est le point de départ du portfolio c’est sur
 cette page qu’on arrive. Nous avons une présentation simple
 avec une image au centre mon nom ma profession et le lien
 vers quatre réseaux sociaux dont trois réseaux sociaux
-professionnels. Le menu de toutes les parties est directement
+professionnels.<br/><br/> Le menu de toutes les parties est directement
 présent sur la gauche du portfolio. La partie accueil est la
 première de la liste et est toujours activée de couleur rouge
-pour commencer, l’utilisateur peut changer cette couleur.
+pour commencer, l’utilisateur peut changer cette couleur.<br/><br/>
 Ensuite nous avons la partie "à Propos" cette parties sert a me
 présenter avec mes coordonnées mes activités sportives elle
 décrit mes expériences et mes formations. Ensuite nous avons
