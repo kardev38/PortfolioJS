@@ -26,7 +26,9 @@ effet l'utilisateur peut changer tous l'aspect du portfolio
 avec le mode DARK, toutes les pages du site passe en mode
 sombre pour ne pas avoir mal aux yeux si l'utilisateur le
 désire.
-Pour accéder au site cliquer sur l'URL suivante :
+Pour accéder au site cliquer sur l'URL suivante :<br/>
+
+https://kardev38.github.io/PortfolioJS/
 
 **Toutes les parties du portfolio**
 
