@@ -43,14 +43,14 @@ pour commencer, l’utilisateur peut changer cette couleur.<br/><br/>
 Ensuite nous avons la partie **à Propos** cette parties sert a me
 présenter avec mes coordonnées mes activités sportives elle
 décrit mes expériences et mes formations. Ensuite nous avons
-la partie "Services" cette partie d’écrit plusieurs services
+la partie **Services** cette partie d’écrit plusieurs services
 proposer au client qui voudrait faire appel à mes compétences
 pour un site ou application web ou mobile.<br/><br/> Ensuite nous avons
-la partie "Skills" ou compétences en français. Nous y trouvons
+la partie **Skills** ou compétences en français. Nous y trouvons
 un catalogue photo qui montre les logos des technologies que
 j’utilise pour mes projets Front-End, Back-End et les différents
 outils don je me sers pour développer.<br/><br/> Puis il y a la partie
-"Projets" qui montre les différents projets que j’ai réalisé. Enfin
+**Projets** qui montre les différents projets que j’ai réalisé. Enfin
 nous avons la partie "Contact" qui sert comme son nom
 l’indique a entre en contact avec moi. Et nous avons sur le côté
 droit en haut le "Style Switcher" qui sert à changer les couleurs
