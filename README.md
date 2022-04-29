@@ -50,9 +50,9 @@ la partie **Skills** ou compétences en français. Nous y trouvons
 un catalogue photo qui montre les logos des technologies que
 j’utilise pour mes projets Front-End, Back-End et les différents
 outils don je me sers pour développer.<br/><br/> Puis il y a la partie
-**Projets** qui montre les différents projets que j’ai réalisé. Enfin
-nous avons la partie "Contact" qui sert comme son nom
-l’indique a entre en contact avec moi. Et nous avons sur le côté
+**Projets** qui montre les différents projets que j’ai réalisé.<br/><br/> Enfin
+nous avons la partie **Contact** qui sert comme son nom
+l’indique a entre en contact avec moi.<br/><br/> Et nous avons sur le côté
 droit en haut le "Style Switcher" qui sert à changer les couleurs
 de différent élément des pages et le "Body Skin" qui sert a passé
 du mode light au mode sombre. Ce portfolio est complètement
