@@ -1,0 +1,23 @@
+{
+  "name": "PortfolioJS",
+  "version": "1.0.0",
+  "description": "**Arborescence**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kardev38/PortfolioJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kardev38/PortfolioJS/issues"
+  },
+  "homepage": "https://github.com/kardev38/PortfolioJS#readme",
+  "dependencies": {
+    "ms": "^2.1.3"
+  }
+}
